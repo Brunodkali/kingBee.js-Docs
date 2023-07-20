@@ -93,8 +93,8 @@ Executes the `action` function when the specified `condition` function returns t
 
     const element = _selectById(elementId);
 
-    _when(element, (el) => el.clicked, () => {
-        console.log('Clicked!');
+    _when(element, () => _classExists(element, 'new-class'), () => {
+        console.log('Exist!');
     });
 
 ## _setEvent(element, event, handler)
