@@ -4,7 +4,7 @@ CDN for use a framework kingBee.js - https://kingbeejs.vercel.app/bundle.js
 
 *Example of use*
 
-        <script src="https://kingbeejs.vercel.app/bundle.js"></script>
+    <script src="https://kingbeejs.vercel.app/bundle.js"></script>
 
 ## _setClass(element, className)
 
