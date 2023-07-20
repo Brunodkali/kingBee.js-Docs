@@ -2,6 +2,10 @@
 
 CDN for use a framework kingBee.js - https://kingbeejs.vercel.app/bundle.js
 
+*Example of use*
+
+        <script src="https://kingbeejs.vercel.app/bundle.js"></script>
+
 ## _setClass(element, className)
 
 Adds the specified class `className` to the given `element`. Throws an error if the `element` is not a valid HTMLElement.
