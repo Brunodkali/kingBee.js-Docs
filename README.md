@@ -330,8 +330,8 @@ Resets the content of the element with the specified `elementId`. If the element
 
 **Example of use**
 
-     _reset(inputId);
-     _reset(formId);
+     _reset(inputId); - reset input;
+     _reset(formId); - reset form;
 
 ## _setChild(parentId, childElement)
 
@@ -417,8 +417,8 @@ Function that takes a `parentSelector` and `childSelector` and transforms the st
 
 **Example of use**
 
-    _makeDrop("div", "p");
-    _makeDrop('#dragContainer', '.draggable');
+    _makeDrop("div", "p"); - using HTMLElement;
+    _makeDrop('#dragContainer', '.draggable'); - using id and class;
 
 ## License
 
