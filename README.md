@@ -328,8 +328,8 @@ Resets the content of the element with the specified `elementId`. If the element
 
 **Example of use**
 
-     _reset(inputId); - reset input;
-     _reset(formId); - reset form;
+     _reset(divId); - reset div content;
+     _reset(formId); - reset form content;
 
 ## _setChild(parentId, childElement)
 
