@@ -1,4 +1,4 @@
-# Array and objects functions
+# Array and Objects functions
 
 ## _deepClone(obj)
 
