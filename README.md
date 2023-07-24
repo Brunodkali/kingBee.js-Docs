@@ -418,6 +418,71 @@ Function that takes a `parentSelector` and `childSelector` and transforms the st
     _makeDrop("div", "p"); - using HTMLElement;
     _makeDrop('#dragContainer', '.draggable'); - using id and class;
 
+## _debounce(function, delay)
+
+Function to define delay in the execution of a function, performing the execution only once. The `delay` parameter has a default of 1000 (1 second).
+
+**Parameters**:
+- `function` (function) [Required]: The function to be performed.
+- `delay` (number) [Optinal]: The expected time to run.
+
+**Example of use**
+
+    function sayHello() {
+       console.log('Hello!');
+    }
+    
+    const debouncedSayHello = _debounce(sayHello, 3000);
+    debouncedSayHello(); // Will run console.log after 3 seconds;
+
+## _deepClone(obj)
+
+Function to perform a deep cloning of an object.
+
+**Parameters**:
+- `obj` (object) [Required]: The object to be cloned.
+
+**Example of use**
+
+     const originalObj = {
+          name: 'John',
+          age: 30,
+          address: {
+            city: 'New York',
+            country: 'USA',
+          },
+    };
+    
+    const clonedObj = _deepClone(originalObj);
+    console.log(clonedObj); // Should display an object equal to the original;
+
+## _flatten(arr)
+
+Function to transform a multidimensional array into a simple array.
+
+**Parameters**:
+- `arr` (array) [Required]: The Array that will be handled.
+
+**Example of use**
+
+    const nestedArray = [1, [2, [3, [4]], 5]];
+    const flattenedArray = _flatten(nestedArray);
+    console.log(flattenedArray); // It should display [1, 2, 3, 4, 5];
+
+## _merge(...objects)
+
+Function for merging two or more objects. It is necessary to pass more than one parameter.
+
+**Parameters**:
+- `...objects` (objects) [Required]: The objects to be merged.
+
+**Example of use**
+
+    const obj1 = { a: 1, b: 2 };
+    const obj2 = { c: 3, d: 4 };
+    const mergedObject = _merge(obj1, obj2);
+    console.log(mergedObject); // It should display { a: 1, b: 2, c: 3, d: 4 };
+
 ## License
 
 The kingBee.js framework is free software *for use*. Copyright© 2023-present Bruno Duarte duartebruno581@gmail.com 
