@@ -1,6 +1,6 @@
 # kingBee.js Documentation
 
-CDN for use a framework kingBee.js - https://kingbeejs.vercel.app/bundle.js
+CDN for use a library kingBee.js - https://kingbeejs.vercel.app/bundle.js
 
     <script src="https://kingbeejs.vercel.app/bundle.js"></script>
 
@@ -485,4 +485,4 @@ Function for merging two or more objects. It is necessary to pass more than one 
 
 ## License
 
-The kingBee.js framework is free software *for use*. Copyright© 2023-present Bruno Duarte duartebruno581@gmail.com 
+The kingBee.js library is free software *for use*. Copyright© 2023-present Bruno Duarte duartebruno581@gmail.com 
