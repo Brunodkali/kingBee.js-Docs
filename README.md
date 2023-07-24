@@ -485,4 +485,4 @@ Function for merging two or more objects. It is necessary to pass more than one 
 
 ## License
 
-The kingBee.js library is free software *for use*. Copyright© 2023-present Bruno Duarte duartebruno581@gmail.com 
+The KingBee.js library is free software *for use*. Copyright© 2023-present Bruno Duarte duartebruno581@gmail.com 
