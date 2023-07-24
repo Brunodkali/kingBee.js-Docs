@@ -1,6 +1,6 @@
 # kingBee.js Documentation
 
-CDN for use a library kingBee.js - https://kingbeejs.vercel.app/bundle.js
+CDN for use a library KingBee.js - https://kingbeejs.vercel.app/bundle.js
 
     <script src="https://kingbeejs.vercel.app/bundle.js"></script>
 
