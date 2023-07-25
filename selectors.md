@@ -1,4 +1,4 @@
-# Selectors - High and low level selectors
+# Selectors functions
 
 ## _select(selector, context)
 
