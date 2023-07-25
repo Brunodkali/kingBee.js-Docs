@@ -2,7 +2,7 @@
 
 ## _select(selector, context)
 
-Selects elements based on the given `selector`. If the selector starts with '#', it selects by ID; otherwise, it selects elements by class or tag name. Returns a NodeList of matching elements.
+Selects elements based on the given `selector`. If the selector starts with '#', it selects by ID; otherwise, it selects elements by class or tag name. Returns a NodeList of matching elements within the given `context` (default is `document`).
 
 **Parameters**:
 - `selector` (string) [Required]: The CSS selector to search for.
