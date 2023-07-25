@@ -1,4 +1,4 @@
-# kingBee.js Documentation
+# KingBee.js Documentation
 
 CDN for use a library KingBee.js - https://kingbeejs.vercel.app/bundle.js
 
